@@ -6,7 +6,6 @@ function somarMultiplosDe3Ou5(limite: number): number {
             soma += numero
         }
     }
-    
     return soma
 }
 

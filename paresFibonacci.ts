@@ -14,9 +14,8 @@ function somaFibonacciPares(limite: number): number {
         termoAnterior = termoAtual
         termoAtual = proximoTermo
     }
-    
     return soma
 }
 
 const resultadoFibonacci = somaFibonacciPares(4000000);
-console.log(`Soma dos termos pares de Fibonacci abaixo de 4 milhões: ${resultadoFibonacci}`)
+console.log(`Soma dos termos pares de Fibonacci abaixo de 4 milhões: ${resultadoFibonacci} `)
